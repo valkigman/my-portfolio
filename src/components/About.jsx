@@ -1,4 +1,4 @@
-import aboutImg from '../assets/about.jpg'
+import aboutImg from '../assets/kigmanPhoto.jpg'
 import { ABOUT_TEXT } from '../constants/index.js'
 import { motion } from 'motion/react'
 
@@ -13,7 +13,7 @@ const About = () => {
             <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
-                ransition={{ duration: 1, delay: 2 }} 
+                transition={{ duration: 1 }} 
                 className="w-full lg:w-1/2 lg:p-8"
             >
                 <div className='flex justify-center lg:justify-start'>
@@ -23,7 +23,7 @@ const About = () => {
             <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: 100 }}
-                ransition={{ duration: 1, delay: 2 }}  
+                transition={{ duration: 1 }}  
                 className='w-full lg:w-1/2'
             >
                 <div className='flex justify-center lg:justify-start'>

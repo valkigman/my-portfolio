@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from '../constants'
-import profilePic from '../assets/kevinRushProfile.png'
+import profilePic from '../assets/kigmanProfile.jpg'
 import { motion } from "motion/react"
 
 const container = (delay) => ({
@@ -7,9 +7,9 @@ const container = (delay) => ({
     visible: {
         x: 0,
         opacity: 1,
-        transition: {duration: 0.5, delay: delay}
-    }
-})
+        transition: { duration: 0.5, delay: delay}
+    },
+});
 
 const Hero = () => {
   return (
@@ -24,7 +24,7 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 1.2}}
                 src={profilePic} 
                 alt='Kevin Rush' 
-                className="w-full max-w-md lg:max-w-full"/>
+                className="w-full max-w-md lg:max-w-full rounded-2xl"/>
           </div>
         </div>
 
@@ -42,7 +42,7 @@ const Hero = () => {
                 variants={container(0.5)}
                 initial='hidden'
                 animate='visible' 
-                className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl lg:text-3xl tracking-tight text-transparent text-center lg:text-left">
+                className="bg-gradient-to-r from-cyan-300 via-slate-500 to-blue-500 bg-clip-text text-2xl lg:text-3xl tracking-tight text-transparent text-center lg:text-left">
               Full Stack Developer
             </motion.span>
             <motion.p
