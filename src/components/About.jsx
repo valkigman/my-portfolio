@@ -1,5 +1,6 @@
 import aboutImg from '../assets/about.jpg'
 import { ABOUT_TEXT } from '../constants/index.js'
+import { motion } from 'motion/react'
 
 const About = () => {
   return (
@@ -9,16 +10,26 @@ const About = () => {
             <span className="text-neutral-500"> Me</span>
         </h1>
         <div className="flex flex-wrap">
-            <div className="w-full lg:w-1/2 lg:p-8">
+            <motion.div
+                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: -100 }}
+                ransition={{ duration: 1, delay: 2 }} 
+                className="w-full lg:w-1/2 lg:p-8"
+            >
                 <div className='flex justify-center lg:justify-start'>
                     <img className='rounded-2xl' src={aboutImg} alt='about'/>
                 </div>
-            </div>
-            <div className='w-full lg:w-1/2'>
+            </motion.div>
+            <motion.div
+                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: 100 }}
+                ransition={{ duration: 1, delay: 2 }}  
+                className='w-full lg:w-1/2'
+            >
                 <div className='flex justify-center lg:justify-start'>
                     <p className='my-2 maxw-w-xl py-6'>{ABOUT_TEXT}</p>
                 </div>
-            </div>
+            </motion.div>
         </div>
     </div>
   )
