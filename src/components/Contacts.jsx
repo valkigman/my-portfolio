@@ -3,7 +3,7 @@ import { motion } from 'motion/react'
 
 const Contacts = () => {
   return (
-    <div className='border-b border-neutral-900 pb-20'>
+    <div className='border-b border-content'>
       <motion.h1 
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity:0, y: -100 }}
