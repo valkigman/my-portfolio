@@ -37,7 +37,7 @@
 
 // export default About
 
-import aboutImg from '../assets/Portfolio Pic 2.jpg'
+import aboutImg from '../assets/mountain view.jpg'
 import { ABOUT_TEXT } from '../constants/index.js'
 import { motion } from 'motion/react'
 
@@ -55,8 +55,8 @@ const About = () => {
                 transition={{ duration: 1 }} 
                 className="w-full lg:w-1/2 lg:p-8"
             >
-                <div className='flex justify-center lg:justify-start'>
-                    <img className='rounded-2xl' src={aboutImg} alt='about'/>
+                <div className='flex justify-items-end lg:justify-start'>
+                    <img className='rounded-2xl size-100' src={aboutImg} alt='about'/>
                 </div>
             </motion.div>
             <motion.div

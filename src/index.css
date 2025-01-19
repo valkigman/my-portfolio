@@ -23,13 +23,14 @@
     --color-content: 23 23 23; /*accent-1 neutral-900*/ 
     --color-cyaniii: 6 182 212; /*accent-2 cyan-500*/
     --color-cyanix: 207 250 254; /*accent-3 cyan-100*/
-    --color-neutralix: 245 245 245; /*accent-4 neutral-100*/
+    --color-neutralix: 237 237 237; /*accent-4 neutral-100*/
     --color-neutralv: 115 115 115; /*accent-5 neutral-500*/
     --color-neutraliv: 82 82 82; /*accent-6 neutral-600*/
-    --color-cyani: 8 145 178; /*accent-7 cyan-600*/
-    --color-cyaniv: 14 116 144; /*accent-8 cyan-700*/
-    --color-neutralviii: 229 229 229; /*accent-9 neutral-200*/
+    --color-cyani: 3 177 255; /*accent-7 cyan-600*/
+    --color-cyaniv: 3 177 255; /*accent-8 cyan-700*/
+    --color-neutralviii: 210 210 210; /*accent-9 neutral-200*/
     --color-purplelight: 119 59 236; /*accent-9 neutral-200*/
     --color-purpledark: 82 69 229; /*accent-9 neutral-200*/
+    
   }
 }

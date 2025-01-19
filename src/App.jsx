@@ -5,7 +5,7 @@ import Technologies from './components/Technologies'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contacts from './components/Contacts'
-import Example from "./components/switch"
+import Switch from "./components/switch"
 
 const App = () => {
   return (
@@ -16,10 +16,10 @@ const App = () => {
       </div>
       <div className="fixed top-0 left-0 right-0 z-50 bg-bkgrd py-2">
         <div className="container mx-auto px-8">
-          <Example />
+          <Switch />
         </div>
       </div>
-      <div className="container mx-auto px-8 pt-16">
+      <div className="container mx-auto px-8 pt-8">
         {/* <Example/> */}
         <Navbar/>
         <Hero/>

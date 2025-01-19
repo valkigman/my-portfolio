@@ -160,7 +160,7 @@ const Technologies = () => {
                 animate='animate' 
                 className="rounded-2xl border-4 border-neutralviii p-4"
             >
-                <TbBrandJavascript className="text-7xl text-cyaniv"/>
+                <TbBrandJavascript className="text-7xl text-yellow-300"/>
             </motion.div>
             <motion.div
                 variants={iconVariants(5)}
@@ -168,7 +168,7 @@ const Technologies = () => {
                 animate='animate'  
                 className="rounded-2xl border-4 border-neutralviii p-4"
             >
-                <BiLogoPostgresql className="text-7xl text-cyaniv"/>
+                <BiLogoPostgresql className="text-7xl text-sky-700"/>
             </motion.div>
             <motion.div 
                 variants={iconVariants(2)}
@@ -176,7 +176,7 @@ const Technologies = () => {
                 animate='animate' 
                 className="rounded-2xl border-4 border-neutralviii p-4"
             >
-                <RiNodejsLine className="text-7xl text-cyaniv"/>
+                <RiNodejsLine className="text-7xl text-green-500"/>
             </motion.div>
             <motion.div 
                 variants={iconVariants(6)}
@@ -184,7 +184,7 @@ const Technologies = () => {
                 animate='animate' 
                 className="rounded-2xl border-4 border-neutralviii p-4"
             >
-                <FaPython className="text-7xl text-cyaniv"/>
+                <FaPython className="text-7xl text-yellow-200"/>
             </motion.div>
             <motion.div 
                 variants={iconVariants(4)}
@@ -192,7 +192,7 @@ const Technologies = () => {
                 animate='animate' 
                 className="rounded-2xl border-4 border-neutralviii p-4"
             >
-                <BiLogoDjango className="text-7xl text-cyaniv"/>
+                <BiLogoDjango className="text-7xl text-green-700"/>
             </motion.div>
             <motion.div 
                 variants={iconVariants(8)}
@@ -200,7 +200,7 @@ const Technologies = () => {
                 animate='animate' 
                 className="rounded-2xl border-4 border-neutralviii p-4"
             >
-                <SiMongodb className="text-7xl text-cyaniv"/>
+                <SiMongodb className="text-7xl text-green-500"/>
             </motion.div>
             <motion.div 
                 variants={iconVariants(7)}
@@ -208,7 +208,7 @@ const Technologies = () => {
                 animate='animate' 
                 className="rounded-2xl border-4 border-neutralviii p-4"
             >
-                <BiLogoTypescript className="text-7xl text-cyaniv"/>
+                <BiLogoTypescript className="text-7xl text-sky-500"/>
             </motion.div>
 
         </motion.div>
