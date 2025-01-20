@@ -19,6 +19,7 @@ export default {
         cyani: 'rgb(var(--color-cyani) / <alpha-value>)',
         cyaniv: 'rgb(var(--color-cyaniv) / <alpha-value>)',
         neutralviii: 'rgb(var(--color-neutralviii) / <alpha-value>)',
+        turqoise:'rgb(var(--color-turqoise) / <alpha-value>)',
       }
     },
   },
