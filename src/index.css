@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
+  :root[data-theme='dark'] {
     font-family: 'Inter', sans-serif;
     --color-bkgrd: 0 0 0; /*black*/
     --color-content: 212 212 212; /*accent-1 neutral-300*/ 
