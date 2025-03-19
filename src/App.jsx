@@ -88,7 +88,7 @@ const App = () => {
           <Switch />
         </div>
       </div>
-      <div className="container mx-auto px-8 pt-8">
+      <div className="w-[70%] mx-auto px-8 pt-8">
         <Navbar />
         <Hero />
         <About />
