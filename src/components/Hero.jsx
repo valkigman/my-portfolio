@@ -86,7 +86,7 @@ const Hero = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1, delay: 1.2}}
                 src={profilePic} 
-                alt='Kevin Rush' 
+                alt='Val Kigman' 
                 className="w-full max-w-md lg:max-w-full rounded-2xl"/>
           </div>
         </div>
@@ -98,7 +98,7 @@ const Hero = () => {
                 variants={container(0)}
                 initial='hidden'
                 animate='visible'
-                className="text-5xl lg:text-5xl font-thin tracking-tight text-center lg:text-left lg:mt-16 mb-4 lg:mb-16">
+                className="text-5xl lg:text-6xl font-thin tracking-tight text-center lg:text-left lg:mt-16 mb-4 lg:mb-16">
               Valentine Kiguli
             </motion.h1>
             <motion.span
