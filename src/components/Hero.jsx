@@ -98,7 +98,7 @@ const Hero = () => {
                 variants={container(0)}
                 initial='hidden'
                 animate='visible'
-                className="text-3xl lg:text-3xl font-thin tracking-tight text-center lg:text-left lg:mt-16 mb-4 lg:mb-16">
+                className="text-4xl lg:text-5xl font-thin tracking-tight text-center lg:text-left lg:mt-16 mb-4 lg:mb-16">
               Valentine Kiguli
             </motion.h1>
             <motion.span
