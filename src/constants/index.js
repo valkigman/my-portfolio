@@ -20,7 +20,7 @@ export const EXPERIENCES = [
     role: "Data Analyst",
     company: "Machine Intelligence Institute of Africa",
     description: `•	Collaborated on a machine learning project to develop a solution for detecting potholes on roads using image recognition and data analytics techniques.`,
-    technologies: ["Pyhton", "Jupyter Notebook", "FastAI", "PyTorch"],
+    technologies: ["Python", "Jupyter Notebook", "FastAI", "PyTorch"],
   },
   // {
   //   year: "2021 - 2022",
@@ -44,7 +44,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional online examination system for Clarke International University with features like safe browser and video and auto proctoring.",
-    technologies: ["Javascript", "CSS", "React", "Node.js", "PostgreSQL"],
+    technologies: ["JavaScript", "CSS", "React", "Node.js", "PostgreSQL"],
   },
   {
     title: "Task Management App",
@@ -65,13 +65,12 @@ export const PROJECTS = [
   //   image: project4,
   //   description:
   //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "MySQL"],
   // },
 ];
 
 export const CONTACT = {
-  address: " Kampala, Uganda ",
-  phoneNo1: "+256 705 367050",
-  phoneNo2: "+256 764 939404",
+  address: " Nottingham, United Kingdom ",
+  phoneNo1: "+44 7482 436716",
   email: "kvale8@gmail.com",
 };
