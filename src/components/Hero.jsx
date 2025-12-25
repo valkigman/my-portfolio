@@ -99,7 +99,7 @@ const Hero = () => {
                 initial='hidden'
                 animate='visible'
                 className="text-5xl lg:text-8xl font-thin tracking-tight text-center lg:text-left lg:mt-16 mb-4 lg:mb-16">
-              Val Kigman
+              Valentine Kiguli
             </motion.h1>
             <motion.span
                 variants={container(0.5)}
