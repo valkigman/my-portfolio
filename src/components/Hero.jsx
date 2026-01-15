@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from '../constants'
-import profilePic from '../assets/src/assets/PicOnBikeB&W.jpg'
+import profilePic from '../assets/PicOnBikeB&W.jpg'
 import { motion } from "motion/react"
 
 const container = (delay) => ({
