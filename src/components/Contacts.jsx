@@ -34,7 +34,7 @@ const Contacts = () => {
         >
           {CONTACT.phoneNo2}
         </motion.p>
-        <a href="#" className='border-b'>{CONTACT.email}</a>
+        <a href="mailto:kvale8@gmail.com" className='border-b'>{CONTACT.email}</a>
       </div>
     </div>
   )
