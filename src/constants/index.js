@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 // import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate engineer eager to create visually appealing and user-friendly designs in both physical and digital realms. With a solid foundation in HTML, CSS, and JavaScript, and growing experience in frameworks like React, I enjoy turning ideas into functional and engaging websites. I'm committed to learning and improving my skills to deliver innovative solutions and memorable user experiences.`;
+export const HERO_CONTENT = `I am a passionate engineer eager to create visually appealing and user-friendly designs in both physical and digital realms. With a background in civil engineering, I have endeavoured to build a solid foundation in HTML, CSS, and JavaScript, and have grown my experience with frameworks like React because I enjoy turning ideas into functional and engaging platforms. I'm committed to learning and improving my skills to deliver innovative solutions and memorable user experiences.`;
 
 export const ABOUT_TEXT = `I am an engineer with a passion for creating intuitive and visually appealing designs and web applications. My journey into web development started with a curiosity about how websites are built, and it has grown into a commitment to learning and refining my skills. I have a solid understanding of HTML, CSS, and JavaScript and am currently expanding my knowledge of frameworks like React. I thrive on exploring new challenges, technologies, staying active, and finding creative solutions to problems.`;
 
